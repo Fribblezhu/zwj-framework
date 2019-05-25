@@ -10,6 +10,6 @@ package com.zwj.framework.auth.annotation;
  */
 public @interface RequireDataAccess {
 
-
+    boolean ignore() default false;
 
 }

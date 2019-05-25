@@ -1,6 +1,10 @@
 package com.zwj.framework.auth.aop;
 
+import com.zwj.framework.auth.define.AuthorizeDefinition;
+import com.zwj.framework.common.aop.MethodInterceptorContext;
+
 import java.lang.reflect.Method;
+import java.util.List;
 
 /**
  * @author: zwj
@@ -10,5 +14,11 @@ import java.lang.reflect.Method;
  */
 public interface AopMethodAuthorizeDefinitionParser {
 
-    AuthorizeDefinition parser(Class targetClass, Method method, MethodInterceptorContent)
+    AuthorizeDefinition parser(Class clazz, Method method, MethodInterceptorContext context);
+
+    default AuthorizeDefinition parser(Class clazz, Method method) {
+        return parser(clazz, method, null);
+    }
+
+    List<AuthorizeDefinition> getAllParser();
 }
