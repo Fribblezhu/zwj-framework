@@ -10,9 +10,9 @@ import org.springframework.data.jpa.repository.JpaRepository;
  * @Time: 1:08 PM
  * @description:
  */
-public interface GenericService<ID, T extends GenericEntity<ID>, M extends Model> {
+public interface GenericService<PK, T extends GenericEntity<PK>, M extends Model> {
 
-    JpaRepository<T, ID> getRepository();
+    JpaRepository<T, PK> getRepository();
 
 
     default T copyFromModel(T entity, M model) {

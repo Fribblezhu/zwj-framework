@@ -14,13 +14,13 @@ import java.util.List;
  * @description:
  */
 @SuppressWarnings("unchecked")
-public interface QueryService<ID, T extends GenericEntity<ID>, M extends Model> extends GenericService<ID, T, M> {
+public interface QueryService<PK, T extends GenericEntity<PK>, M extends Model> extends GenericService<PK, T, M> {
 
-    default  T getByPrimaryKey(ID ID) {
-        return this.getRepository().findById(ID).orElse(null);
+    default  T getByPrimaryKey(PK PK) {
+        return this.getRepository().findById(PK).orElse(null);
     }
 
-    default List<T> getByPrimaryKeyList(List<ID> ids) {
+    default List<T> getByPrimaryKeyList(List<PK> ids) {
         return this.getRepository().findAllById(ids);
     }
 

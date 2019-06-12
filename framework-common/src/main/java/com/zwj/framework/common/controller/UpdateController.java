@@ -21,12 +21,12 @@ import static com.zwj.framework.common.controller.message.ResponseMessage.succes
  * @Time: 7:48 PM
  * @description:
  */
-public interface UpdateController<ID, T extends GenericEntity<ID>, M extends Model, S extends UpdateService<ID, T, M>> extends GenericController<ID, T, M, S>  {
+public interface UpdateController<PK, T extends GenericEntity<PK>, M extends Model, S extends UpdateService<PK, T, M>> extends GenericController<PK, T, M, S>  {
 
     @ApiOperation("修改")
     @Authorize(permission = Permission.ACTION_UPDATE)
     @PutMapping("/{id.+}")
-    default  ResponseMessage update(@PathVariable ID id, @RequestBody M model) {
+    default  ResponseMessage update(@PathVariable PK id, @RequestBody M model) {
         return success(this.getService().updateByModel(id, model));
     }
 
@@ -34,7 +34,7 @@ public interface UpdateController<ID, T extends GenericEntity<ID>, M extends Mod
     @ApiOperation(("批量修改"))
     @Authorize(permission =  Permission.ACTION_UPDATE)
     @PutMapping("/batchUpdate")
-    default ResponseMessage batchUpdate(@RequestBody Map<ID, M> requestMap) {
+    default ResponseMessage batchUpdate(@RequestBody Map<PK, M> requestMap) {
         this.getService().batchUpdateByModel(requestMap);
         return success();
     }

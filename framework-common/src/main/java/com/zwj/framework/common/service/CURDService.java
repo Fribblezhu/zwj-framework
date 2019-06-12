@@ -9,8 +9,8 @@ import com.zwj.framework.common.model.Model;
  * @Time: 10:55 AM
  * @description:
  */
-public interface CURDService<ID, T extends GenericEntity<ID>, M extends Model>
-                    extends CreateService<ID, T, M>, UpdateService<ID, T ,M>, QueryService<ID, T, M>, DeleteService<ID, T, M>
+public interface CURDService<PK, T extends GenericEntity<PK>, M extends Model>
+                    extends CreateService<PK, T, M>, UpdateService<PK, T ,M>, QueryService<PK, T, M>, DeleteService<PK, T, M>
 {
 
 

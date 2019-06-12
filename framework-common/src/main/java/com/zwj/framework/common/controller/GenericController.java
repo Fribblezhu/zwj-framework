@@ -10,7 +10,7 @@ import com.zwj.framework.common.service.GenericService;
  * @Time: 2:19 PM
  * @description:
  */
-public interface GenericController<ID, T extends GenericEntity<ID>, M extends Model, S extends GenericService<ID ,T, M>> {
+public interface GenericController<PK, T extends GenericEntity<PK>, M extends Model, S extends GenericService<PK ,T, M>> {
 
     @Authorize(ignore =  true)
     S getService();

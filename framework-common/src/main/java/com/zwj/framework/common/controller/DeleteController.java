@@ -20,21 +20,21 @@ import static com.zwj.framework.common.controller.message.ResponseMessage.succes
  * @Time: 11:24 AM
  * @description:
  */
-public interface DeleteController<ID, T extends GenericEntity<ID>,M extends Model,S extends DeleteService<ID, T, M>> extends GenericController<ID, T, M, S>{
+public interface DeleteController<PK, T extends GenericEntity<PK>,M extends Model,S extends DeleteService<PK, T, M>> extends GenericController<PK, T, M, S>{
 
     @Authorize(permission = Permission.ACTION_DELETE)
     @PostMapping(value = "/deleteByPrimaryKey")
     @ApiOperation("")
-    default ResponseMessage deleteByPrimaryKey(@RequestBody ID ID) {
-        this.getService().deleteByPrimaryKey(ID);
+    default ResponseMessage deleteByPrimaryKey(@RequestBody PK PK) {
+        this.getService().deleteByPrimaryKey(PK);
         return success();
     }
 
     @Authorize(permission = Permission.ACTION_DELETE)
     @ApiOperation("")
     @PostMapping
-    default ResponseMessage deleteByPrimaryKeys(@RequestBody List<ID> IDS) {
-        this.getService().deleteByPrimaryKeys(IDS);
+    default ResponseMessage deleteByPrimaryKeys(@RequestBody List<PK> PKS) {
+        this.getService().deleteByPrimaryKeys(PKS);
         return success();
     }
 

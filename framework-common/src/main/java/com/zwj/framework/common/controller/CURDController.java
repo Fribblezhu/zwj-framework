@@ -10,8 +10,8 @@ import com.zwj.framework.common.service.CURDService;
  * @Time: 8:19 PM
  * @description:
  */
-public interface CURDController <ID, T extends GenericEntity<ID>, M extends Model,S extends CURDService<ID, T, M>> extends
-        CreateController<ID, T, M, S>, UpdateController<ID, T, M , S>, QueryController<ID, T, M, S>, DeleteController<ID, T, M , S> {
+public interface CURDController <PK, T extends GenericEntity<PK>, M extends Model,S extends CURDService<PK, T, M>> extends
+        CreateController<PK, T, M, S>, UpdateController<PK, T, M , S>, QueryController<PK, T, M, S>, DeleteController<PK, T, M , S> {
 
 
 

@@ -8,7 +8,7 @@ import java.util.Date;
  * @Time: 8:30 PM
  * @description:
  */
-public interface RecordModifierEntity<ID> extends GenericEntity<ID>{
+public interface RecordModifierEntity extends Entity{
 
     String getModifierId();
 

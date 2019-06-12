@@ -16,7 +16,7 @@ import java.util.Date;
  * @Time: 1:37 PM
  * @description:
  */
-public interface CreateService<ID, T extends GenericEntity<ID>, M extends Model > extends GenericService<ID, T,M>  {
+public interface CreateService<PK, T extends GenericEntity<PK>, M extends Model > extends GenericService<PK, T,M>  {
 
 
     default T create(M model) {

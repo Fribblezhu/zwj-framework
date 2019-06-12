@@ -25,19 +25,19 @@ import static com.zwj.framework.common.controller.message.ResponseMessage.succes
  * @Time: 2:27 PM
  * @description:
  */
-public interface QueryController<ID, T extends GenericEntity<ID>, M extends Model,S extends QueryService<ID, T ,M>> extends GenericController<ID, T, M, S>{
+public interface QueryController<PK, T extends GenericEntity<PK>, M extends Model,S extends QueryService<PK, T ,M>> extends GenericController<PK, T, M, S>{
 
     @Authorize(permission = Permission.ACTION_GET)
     @ApiOperation(value = "根据主键查询单个实体")
     @GetMapping(value = "/{id:.+}")
-    default ResponseMessage getByPrimaryKey(@PathVariable ID ID) {
-        return success(this.assertNotNull(this.getService().getByPrimaryKey(ID)));
+    default ResponseMessage getByPrimaryKey(@PathVariable PK PK) {
+        return success(this.assertNotNull(this.getService().getByPrimaryKey(PK)));
     }
 
     @Authorize(permission = Permission.ACTION_GET)
     @PostMapping(value = "/getByPrimaryKeys")
     @ApiOperation(value = "根据多个主键查询多个实体")
-    default ResponseMessage getByPrimaryKeys(@RequestBody List<ID> ids) {
+    default ResponseMessage getByPrimaryKeys(@RequestBody List<PK> ids) {
         return success(this.assertNotNull(this.getService().getByPrimaryKeyList(ids)));
     }
 

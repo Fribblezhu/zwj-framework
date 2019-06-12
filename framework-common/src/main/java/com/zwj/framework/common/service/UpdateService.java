@@ -12,21 +12,21 @@ import java.util.Map;
  * @Time: 7:42 PM
  * @description:
  */
-public interface UpdateService<ID, T extends GenericEntity<ID>, M extends Model> extends GenericService<ID, T, M> {
+public interface UpdateService<PK, T extends GenericEntity<PK>, M extends Model> extends GenericService<PK, T, M> {
 
 
 
-    default  T updateByModel(ID ID, M model) {
-        T entity = this.getRepository().findById(ID).orElse(null);
+    default  T updateByModel(PK PK, M model) {
+        T entity = this.getRepository().findById(PK).orElse(null);
         Assert.notNull(entity, "can't update null entity");
         this.copyFromModel(entity, model);
         Assert.notNull(entity, "can't update null entity");
-        entity.setId(ID);
+        entity.setId(PK);
         return this.getRepository().save(entity);
     }
 
 
-    default void batchUpdateByModel(Map<ID,M> requestMap) {
+    default void batchUpdateByModel(Map<PK,M> requestMap) {
         requestMap.forEach(this::updateByModel);
     }
 }

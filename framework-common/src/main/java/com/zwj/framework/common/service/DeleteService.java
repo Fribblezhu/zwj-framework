@@ -12,14 +12,14 @@ import java.util.List;
  * @Time: 11:26 AM
  * @description:
  */
-public interface DeleteService<ID, T extends GenericEntity<ID>, M extends Model> extends GenericService<ID, T, M> {
+public interface DeleteService<PK, T extends GenericEntity<PK>, M extends Model> extends GenericService<PK, T, M> {
 
-    default void deleteByPrimaryKey(ID ID) {
-        this.getRepository().deleteById(ID);
+    default void deleteByPrimaryKey(PK PK) {
+        this.getRepository().deleteById(PK);
     }
 
-    default  void deleteByPrimaryKeys(List<ID> IDS) {
-        Assert.notNull(IDS, "delete by primary key list can't access null list...");
-        IDS.forEach(this::deleteByPrimaryKey);
+    default  void deleteByPrimaryKeys(List<PK> PKS) {
+        Assert.notNull(PKS, "delete by primary key list can't access null list...");
+        PKS.forEach(this::deleteByPrimaryKey);
     }
 }

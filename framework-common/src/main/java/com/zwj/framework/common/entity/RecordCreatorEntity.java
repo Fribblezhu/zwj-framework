@@ -8,7 +8,7 @@ import java.util.Date;
  * @Time: 8:20 PM
  * @description:
  */
-public interface RecordCreatorEntity<ID> extends GenericEntity<ID>{
+public interface RecordCreatorEntity extends Entity{
 
     String getCreatorId();
 
@@ -16,6 +16,6 @@ public interface RecordCreatorEntity<ID> extends GenericEntity<ID>{
 
     void setCreatorId(String creatorId);
 
-    void setCreateTIme(Date date);
+    void setCreateTime(Date date);
 
 }

@@ -7,4 +7,5 @@ package com.zwj.framework.common.entity;
  * @description:
  */
 public interface Entity {
+
 }

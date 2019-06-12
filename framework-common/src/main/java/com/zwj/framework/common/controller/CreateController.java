@@ -19,7 +19,7 @@ import static com.zwj.framework.common.controller.message.ResponseMessage.succes
  * @Time: 1:53 PM
  * @description:
  */
-public interface CreateController<ID, T extends GenericEntity<ID>, M extends  Model,S extends CreateService<ID, T, M>> extends GenericController<ID, T, M,S> {
+public interface CreateController<PK, T extends GenericEntity<PK>, M extends  Model,S extends CreateService<PK, T, M>> extends GenericController<PK, T, M,S> {
 
     @Authorize(permission = Permission.ACTION_ADD)
     @PostMapping("/create")
