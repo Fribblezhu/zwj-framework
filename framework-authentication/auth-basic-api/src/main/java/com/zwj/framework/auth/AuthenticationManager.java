@@ -8,9 +8,19 @@ package com.zwj.framework.auth;
  */
 public interface AuthenticationManager {
 
+    /**
+     *
+     * @param userId
+     * @return
+     */
     Authentication getByUserId(String userId);
 
 
+    /**
+    *
+    * @param request
+    * @return
+    */
     Authentication authenticate(AuthenticationRequest request);
 
 }

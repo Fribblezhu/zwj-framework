@@ -8,8 +8,11 @@
     <artifactId>framework-system</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
+
     <modules>
-        <module>system-authorization</module>
+        <module>system-authorization-core</module>
+        <module>system-authorization-api</module>
+        <module>system-authorization-web</module>
     </modules>
 
 

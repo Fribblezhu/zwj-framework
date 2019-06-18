@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: auth-system
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://47.107.255.14:3306/auth?useUnicode=true&characterEncoding=utf8mb4&allowMultiQueries=true
+    username: zhuwenjian
+    password: fribblezwj)$21
+    dbcp2:
+      validation-query: select 1
+  redis:
+    password: fribble0421
+    port: 6379
+    jedis:
+      pool:
+        max-active: 20
+    host: 47.107.255.14
+    database: 1
+  jpa:
+    hibernate:
+      ddl-auto: create

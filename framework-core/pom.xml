@@ -21,15 +21,15 @@
     </build>
     <dependencies>
         <dependency>
-            <groupId>com.zwj.framework</groupId>
-            <artifactId>framework-common</artifactId>
-            <version>1.0-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
             <groupId>io.jsonwebtoken</groupId>
             <artifactId>jjwt</artifactId>
             <version>0.9.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.zwj.framework</groupId>
+            <artifactId>common-utils</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
 

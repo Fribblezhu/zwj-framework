@@ -8,6 +8,11 @@ package com.zwj.framework.auth;
  */
 public interface AuthenticationInitializeService {
 
+    /**
+     *
+     * @param userId
+     * @return
+     */
     Authentication initialize(String userId);
 
 }
