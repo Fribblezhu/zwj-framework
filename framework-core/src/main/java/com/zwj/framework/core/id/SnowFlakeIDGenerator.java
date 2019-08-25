@@ -1,6 +1,6 @@
 package com.zwj.framework.core.id;
 
-import com.zwj.framework.common.utils.RandomUtils;
+import com.zwj.framework.utils.RandomUtils;
 import lombok.extern.slf4j.Slf4j;
 
 
@@ -64,11 +64,11 @@ public class SnowFlakeIDGenerator {
 
 
     protected long getDatacenterId() {
-        return  Long.getLong("datacenter_id", RandomUtils.getRandom().nextInt());
+        return  Long.getLong("datacenter_id", RandomUtils.getRandom().nextInt(31));
     }
 
     protected  long getMachineId() {
-        return Long.getLong("machine_id", RandomUtils.getRandom().nextInt());
+        return Long.getLong("machine_id", RandomUtils.getRandom().nextInt(31));
     }
 
     /**

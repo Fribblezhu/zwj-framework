@@ -1,7 +1,7 @@
 package com.zwj.framework.auth.aop;
 
 import com.zwj.framework.auth.define.AuthorizeDefinition;
-import com.zwj.framework.common.aop.MethodInterceptorContext;
+import com.zwj.framework.utils.aop.MethodInterceptorContext;
 
 import java.lang.reflect.Method;
 import java.util.List;

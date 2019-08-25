@@ -1,6 +1,6 @@
 package com.zwj.system.authorication.role.entity;
 
-import com.zwj.framework.common.entity.simple.GenericRecordStringIdEntity;
+import com.zwj.framework.common.entity.simple.GenericStringIdEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -20,7 +20,7 @@ import javax.persistence.Table;
 @NoArgsConstructor
 @Entity
 @Table(name = "t_link_role_classification")
-public class LinkRoleClassificationEntity extends GenericRecordStringIdEntity implements ILinkRoleClassification {
+public class LinkRoleClassificationEntity extends GenericStringIdEntity implements ILinkRoleClassification {
 
 
     @Column(name = "role_id")

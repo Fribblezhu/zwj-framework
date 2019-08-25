@@ -11,6 +11,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Map;
 
@@ -22,15 +23,15 @@ import static com.zwj.framework.common.controller.message.ResponseMessage.succes
  * @Time: 7:48 PM
  * @description:
  */
-@Controller
+@RestController
 public interface UpdateController<PK, T extends GenericEntity<PK>, M extends Model > extends GenericController<PK, T, M>  {
 
     UpdateService<PK, T, M> getService();
 
     @ApiOperation("修改")
     @Authorize(permission = Permission.ACTION_UPDATE)
-    @PutMapping("/{id.+}")
-    default  ResponseMessage update(@PathVariable PK id, @RequestBody M model) {
+    @PutMapping("/{id:.+}")
+    default  ResponseMessage update(@PathVariable(name = "id") PK id, @RequestBody M model) {
         return success(this.getService().updateByModel(id, model));
     }
 

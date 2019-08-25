@@ -1,8 +1,10 @@
 package com.zwj.system.authorication.user.entity;
 
+import com.zwj.framework.common.data.Gender;
 import com.zwj.framework.common.entity.GenericEntity;
-import com.zwj.framework.common.entity.RecordCreatorEntity;
-import com.zwj.framework.common.entity.RecordModifierEntity;
+import com.zwj.framework.common.entity.SortSupportEntity;
+
+
 import java.util.Date;
 
 /**
@@ -11,7 +13,7 @@ import java.util.Date;
  * @Time: 11:22 AM
  * @description:
  */
-public interface IUserEntity extends RecordCreatorEntity, RecordModifierEntity, GenericEntity<String> {
+public interface IUserEntity extends   GenericEntity<String>, SortSupportEntity {
     Integer status_valid = 1;
     Integer status_invalid = 0;
 
@@ -39,7 +41,7 @@ public interface IUserEntity extends RecordCreatorEntity, RecordModifierEntity, 
 
     void setTelephone(String telephone);
 
-    String getName();
+    String getUsername();
 
     String getLoginName();
 
@@ -47,7 +49,7 @@ public interface IUserEntity extends RecordCreatorEntity, RecordModifierEntity, 
 
     String getAddress();
 
-    Integer getGender();
+    Gender getGender();
 
     String getEmail();
 
@@ -61,14 +63,13 @@ public interface IUserEntity extends RecordCreatorEntity, RecordModifierEntity, 
 
     String getComments();
 
-    /*
-     * (non-Javadoc)
-     *
-     * @see com.cesgroup.authen4.base.intef.IEntity#getTenantId()
-     */
+    String getPhone();
+
+    void setPhone(String phone);
+
     String getTenantId();
 
-    void setName(String name);
+    void setUsername(String username);
 
     void setLoginName(String loginName);
 
@@ -76,7 +77,7 @@ public interface IUserEntity extends RecordCreatorEntity, RecordModifierEntity, 
 
     void setAddress(String address);
 
-    void setGender(Integer gender);
+    void setGender(Gender gender);
 
     void setEmail(String email);
 
@@ -103,10 +104,6 @@ public interface IUserEntity extends RecordCreatorEntity, RecordModifierEntity, 
     void setStatus(Integer status);
 
     void setModifyUser(String modifyUser);
-
-    Long getShowOrder();
-
-    void setShowOrder(Long showOrder);
 
     Integer getIsSuperadmin();
 

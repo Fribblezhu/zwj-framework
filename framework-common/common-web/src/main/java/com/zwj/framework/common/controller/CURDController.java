@@ -4,6 +4,7 @@ import com.zwj.framework.common.entity.GenericEntity;
 import com.zwj.framework.common.model.Model;
 import com.zwj.framework.common.service.CURDService;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author: zwj
@@ -11,7 +12,7 @@ import org.springframework.stereotype.Controller;
  * @Time: 8:19 PM
  * @description:
  */
-@Controller
+@RestController
 public interface CURDController <PK, T extends GenericEntity<PK>, M extends Model> extends
         CreateController<PK, T, M>, UpdateController<PK, T, M >, QueryController<PK, T, M>, DeleteController<PK, T, M> {
 

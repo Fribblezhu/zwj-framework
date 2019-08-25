@@ -26,7 +26,7 @@ public class ResponseMessage<T> {
         return ResponseMessage.success(null);
     }
 
-    public static <T> ResponseMessage success(T data) {
+    public static  <T> ResponseMessage success(T data) {
         return new ResponseMessage<T>()
                 .data(data)
                 .status(200)

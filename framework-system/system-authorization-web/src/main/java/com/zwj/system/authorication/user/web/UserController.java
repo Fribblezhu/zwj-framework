@@ -1,12 +1,16 @@
 package com.zwj.system.authorication.user.web;
 
-import com.zwj.framework.common.controller.CURDController;
-import com.zwj.framework.common.service.CURDService;
+
+
+import com.zwj.framework.common.controller.simple.GenericCURDController;
 import com.zwj.system.authorication.user.entity.UserEntity;
 import com.zwj.system.authorication.user.model.UserModel;
 import com.zwj.system.authorication.user.service.UserService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
+
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
 
 /**
  * @author: zwj
@@ -14,13 +18,12 @@ import org.springframework.stereotype.Controller;
  * @Time: 5:43 PM
  * @description:
  */
-@Controller
-public class UserController implements CURDController<String, UserEntity, UserModel> {
+@RestController
+@RequestMapping("user")
+public class UserController extends GenericCURDController<String,UserEntity,UserModel,UserService> {
 
-    @Autowired
-    private UserService userService;
-
-    public CURDService<String, UserEntity, UserModel> getService() {
-        return userService;
+    public UserController(UserService service) {
+        super(service);
     }
+
 }

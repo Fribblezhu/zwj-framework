@@ -27,7 +27,7 @@
         </dependency>
         <dependency>
             <groupId>com.zwj.framework</groupId>
-            <artifactId>common-utils</artifactId>
+            <artifactId>framework-utils</artifactId>
             <version>1.0-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>

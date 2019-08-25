@@ -1,14 +1,12 @@
 package com.zwj.framework.common.service;
 
-import com.zwj.framework.auth.Authentication;
-import com.zwj.framework.auth.User;
+
 import com.zwj.framework.common.entity.GenericEntity;
-import com.zwj.framework.common.entity.RecordCreatorEntity;
-import com.zwj.framework.common.entity.RecordModifierEntity;
 import com.zwj.framework.common.model.Model;
+
+import org.springframework.lang.Nullable;
 import org.springframework.util.Assert;
 
-import java.sql.Timestamp;
 
 /**
  * @author: zwj
@@ -18,20 +16,31 @@ import java.sql.Timestamp;
  */
 public interface CreateService<PK, T extends GenericEntity<PK>, M extends Model> extends GenericService<PK, T, M>  {
 
-    default T create(M model) {
-        T entity = this.createDefaultEntity();
-        this.copyFromModel(entity, model);
+    /**
+     *  通过模型创建实体
+     * @param model   实体类对应的模型
+     * @param userId 当找不到当前用户时使用的操作者id
+     * @return   创建好的对象
+     * @see CreateService#insert(GenericEntity, String)
+     */
+    default T create(M model, @Nullable String userId) {
+        T entity = this.getServiceHelper().modelToEntity(model);
         Assert.notNull(entity, "can't create null entity ...");
-        // 自动添加创建人
-        if(entity instanceof RecordCreatorEntity) {
-            ((RecordCreatorEntity) entity).setCreateTime(new Timestamp(System.currentTimeMillis()));
-            ((RecordCreatorEntity) entity).setCreatorId(Authentication.current().map(Authentication::getUser).map(User::getId).orElse(null));
-        }
-        // 自动添加修改人
-        if(entity instanceof RecordModifierEntity) {
-            ((RecordModifierEntity) entity).setModifyTime(new Timestamp(System.currentTimeMillis()));
-            ((RecordModifierEntity) entity).setModifierId(Authentication.current().map(Authentication::getUser).map(User::getId).orElse(null));
-        }
+        this.updateRecord(entity, userId);
+        Assert.notNull(entity.getId(), "新增实体前，必须赋予其主键ID.");
+        return this.getRepository().save(entity);
+    }
+
+    /**
+     *   插入实体
+     * @param entity   实体对象
+     * @param userId    当找不到当前用户时使用的操作者id
+     * @return  返回创建好的对象
+     * @see org.springframework.data.jpa.repository.JpaRepository#save(Object)
+     */
+    default T insert(T entity, @Nullable String userId) {
+        Assert.notNull(entity, "can't insert null entity ...");
+        this.updateRecord(entity, userId);
         return this.getRepository().save(entity);
     }
 

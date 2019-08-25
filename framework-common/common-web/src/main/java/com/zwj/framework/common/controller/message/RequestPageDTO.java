@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+import javax.validation.constraints.NotNull;
+import java.io.Serializable;
 
 /**
  * @author: zwj
@@ -15,12 +17,11 @@ import lombok.Setter;
 @AllArgsConstructor
 @Getter
 @Setter
-public class RequestPageDTO<T> {
+public class RequestPageDTO<M> implements Serializable {
 
-    int pageSize;
+    @NotNull
+    PageParameter pageParameter;
 
-    int pageNum;
-
-    T  entity;
+    M  model;
 
 }

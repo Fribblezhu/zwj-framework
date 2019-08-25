@@ -1,0 +1,1302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="25bf49a9-31ad-4e8b-adf5-4be482280fa0" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/framework-common/common-data/common-data.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-data/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-data/src/main/java/com.zwj.framework.common/data/Gender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/PageParameter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/simple/GenericCURDController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/simple/GenericController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/AbstractTreeStringIdEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/GenericSortStringIdEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/model/ComboBoxModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/model/PageResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/helper/ServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/utils/DefaultIDGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/framework-logging.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-aop/logging-aop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-aop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-aop/src/main/java/com/zwj/framework/logging/aop/AccessLoggerParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-api/logging-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-api/src/main/java/com/zwj/framework/logging/AccessLogInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-api/src/main/java/com/zwj/framework/logging/AccessLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-api/src/main/java/com/zwj/framework/logging/AccessLoggerListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-api/src/main/java/com/zwj/framework/logging/LoggerDefine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-api/src/main/java/com/zwj/framework/logging/event/LoggingAfterEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/logging-api/src/main/java/com/zwj/framework/logging/event/LoggingBeforeEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-logging/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/note.MD" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/entity/CodecEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/entity/ICodecEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/model/CodeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/model/CodecModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/repository/CodecRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/CodecService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/helper/CodeServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/helper/CodecServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/impl/CodeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/impl/CodecServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/common/Status.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/core/AuthCoreBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/core/interf/IAuthCoreBiz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/ILinkOrganizationClassificationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/ILinkRoleOganizationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/ILinkUserOrganizationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/IOrganizationClassificationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/IOrganizationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/IOrganizationGradeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/LinkOrganizationClassificationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/LinkRoleOrganizationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/LinkUserOrganizationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/OrganizationClassificationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/OrganizationEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/entity/OrganizationGradeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/model/LinkOrganizationClassificationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/model/LinkRoleOrganizationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/model/LinkUserOrganizationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/model/OrganizationClassificationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/model/OrganizationGradeModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/model/OrganizationModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/repository/LinkOrganizationClassificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/repository/LinkRoleOrganizationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/repository/LinkUserOrganizationRepsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/repository/OrganizationClassificationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/repository/OrganizationGradeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/repository/OrganizationRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/entity/IResourceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/entity/IResourcePoolEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/entity/ResourceEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/entity/ResourcePoolEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/model/ResourceModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/model/ResourcePoolModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/repository/ResourcePoolRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/repository/ResourceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/service/ResourcePoolService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/service/ResourceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/service/helper/ResourcePoolServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/service/helper/ResourceServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/service/impl/ResourcePoolServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/service/impl/ResourceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/entity/ISystemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/entity/SystemEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/model/SystemModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/repository/SystemRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/service/SystemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/service/helper/SystemServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/service/impl/SystemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/tenant/entity/ITenantEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/tenant/entity/TenantEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/tenant/model/TenantModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/tenant/repository/TenantRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/AccountEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/IAccountEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/LinkUserRoleEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/model/AccountModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/helper/UserServiceHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/test/java/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/code/web/CodeCController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/code/web/CodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/resource/web/ResourceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/resource/web/ResourcePoolController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/role/web/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/runner/CheckDataBasesRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/system/web/SystemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/resources/sql/init_mysql.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework-utils/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic-api/auth-basic-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic-api/auth-basic-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic-api/src/main/java/com/zwj/framework/auth/AuthenticationHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic-api/src/main/java/com/zwj/framework/auth/AuthenticationHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic-api/src/main/java/com/zwj/framework/auth/define/AuthorizingContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic-api/src/main/java/com/zwj/framework/auth/define/AuthorizingContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic-api/target/classes/com/zwj/framework/auth/AuthenticationHolder.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic-api/target/classes/com/zwj/framework/auth/AuthenticationHolder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic-api/target/classes/com/zwj/framework/auth/define/AuthorizingContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic-api/target/classes/com/zwj/framework/auth/define/AuthorizingContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/auth-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic/auth-basic.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/AopAuthorizingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/AopAuthorizingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/AopMethodAuthorizeDefinitionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/AopMethodAuthorizeDefinitionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/DefaultAopMethodAuthorizeDefinitionParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/DefaultAopMethodAuthorizeDefinitionParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/Bootstrap.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/aop/AopAuthorizingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/aop/AopMethodAuthorizeDefinitionCustomizeParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/aop/AopMethodAuthorizeDefinitionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/aop/DefaultAopMethodAuthorizeDefinitionParser$CacheKey.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/aop/DefaultAopMethodAuthorizeDefinitionParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/handler/AuthorizingHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/handler/DefaultAuthorizingHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/web/AuthorizedToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/web/GeneratedToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/web/ParsedToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/web/UserTokenGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-basic/target/classes/com/zwj/framework/auth/web/UserTokenParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/auth-jwt/auth-jwt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/auth-jwt/auth-jwt.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-authentication/framework-authentication.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-authentication/framework-authentication.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/common-utils.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-utils/framework-utils.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/src/main/java/com/zwj/framework/common/aop/MethodInterceptorContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-utils/src/main/java/com/zwj/framework/utils/aop/MethodInterceptorContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/src/main/java/com/zwj/framework/common/aop/MethodInterceptorHolder.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-utils/src/main/java/com/zwj/framework/utils/aop/MethodInterceptorHolder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/src/main/java/com/zwj/framework/common/utils/AopUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-utils/src/main/java/com/zwj/framework/utils/AopUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/src/main/java/com/zwj/framework/common/utils/RandomUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-utils/src/main/java/com/zwj/framework/utils/RandomUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/src/main/java/com/zwj/framework/common/utils/ThreadLocalUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-utils/src/main/java/com/zwj/framework/utils/ThreadLocalUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/target/classes/com/zwj/framework/common/aop/MethodInterceptorContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/target/classes/com/zwj/framework/common/aop/MethodInterceptorHolder$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/target/classes/com/zwj/framework/common/aop/MethodInterceptorHolder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/target/classes/com/zwj/framework/common/utils/AopUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/target/classes/com/zwj/framework/common/utils/RandomUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-utils/target/classes/com/zwj/framework/common/utils/ThreadLocalUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/common-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/common-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/CURDController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/CURDController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/CreateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/CreateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/DeleteController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/DeleteController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/GenericController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/GenericController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/QueryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/QueryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/UpdateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/UpdateController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/RequestPageDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/RequestPageDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/ResponseMessage.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/ResponseMessage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/GenericEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/GenericEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/RecordCreatorEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/RecordModifierEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/TreeSupportEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/TreeSupportEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/AbstractTreeSortStringIdEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/AbstractTreeSortStringIdEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/GenericRecordStringIdEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/GenericStringIdEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/GenericStringIdEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/model/Model.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/model/Model.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/CreateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/CreateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/GenericService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/GenericService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/QueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/QueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/UpdateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/UpdateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/CURDController.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/CURDController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/CreateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/CreateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/DeleteController.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/DeleteController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/GenericController.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/GenericController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/QueryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/QueryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/UpdateController.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/UpdateController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/message/RequestPageDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/controller/message/RequestPageDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/GenericEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/GenericEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/RecordCreatorEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/RecordModifierEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/TreeSupportEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/TreeSupportEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/simple/AbstractTreeSortStringIdEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/simple/AbstractTreeSortStringIdEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/simple/GenericRecordStringIdEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/simple/GenericStringIdEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/entity/simple/GenericStringIdEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/model/Model.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/model/Model.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/service/CreateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/service/CreateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/service/GenericService.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/service/GenericService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/service/QueryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/service/QueryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/service/UpdateService.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/common-web/target/classes/com/zwj/framework/common/service/UpdateService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/framework-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/framework-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/com/zwj/framework/core/id/IDGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/com/zwj/framework/core/id/IDGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/src/main/java/com/zwj/framework/core/id/SnowFlakeIDGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/src/main/java/com/zwj/framework/core/id/SnowFlakeIDGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/target/classes/com/zwj/framework/core/id/IDGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/target/classes/com/zwj/framework/core/id/IDGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-core/target/classes/com/zwj/framework/core/id/SnowFlakeIDGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-core/target/classes/com/zwj/framework/core/id/SnowFlakeIDGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/framework-system.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/framework-system.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-api/system-authorization-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-api/system-authorization-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/entity/CodeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/entity/CodeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/entity/ICodeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/entity/ICodeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/CodeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/CodeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/interf/ICodeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/ILinkRoleClassification.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/ILinkRoleClassification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/ILinkRoleCodeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/ILinkRoleCodeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/ILinkRoleResourceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/ILinkRoleResourceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/IRoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/IRoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/LinkRoleClassificationEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/LinkRoleClassificationEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/LinkRoleCodeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/LinkRoleCodeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/LinkRoleResourceEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/LinkRoleResourceEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/RoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/entity/RoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/service/LinkRoleClassificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/service/LinkRoleCodeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/service/LinkRoleResourceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/service/RoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/service/interf/ILinkRoleClassificationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/service/interf/ILinkRoleCodeService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/service/interf/ILinkRoleResourceService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/role/service/interf/IRoleService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/ILinkUserRoleEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/ILinkUserRoleEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/IUserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/IUserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/IUserSessionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/IUserSessionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/UserEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/UserEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/UserSessionEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/UserSessionEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/model/UserModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/model/UserModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/UserSessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/interf/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/interf/IUserSessionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/system-authorization-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/system-authorization-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/system-authorization.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/code/entity/CodeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/code/entity/CodeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/code/entity/ICodeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/code/entity/ICodeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/code/service/CodeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/code/service/CodeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/code/service/interf/ICodeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/ILinkRoleClassification.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/ILinkRoleClassification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/ILinkRoleCodeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/ILinkRoleCodeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/ILinkRoleResourceEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/ILinkRoleResourceEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/IRoleEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/IRoleEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/LinkRoleClassificationEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/LinkRoleClassificationEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/LinkRoleCodeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/LinkRoleCodeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/LinkRoleResourceEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/LinkRoleResourceEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/RoleEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/entity/RoleEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/service/LinkRoleClassificationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/service/LinkRoleCodeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/service/LinkRoleResourceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/service/RoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/service/interf/ILinkRoleClassificationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/service/interf/ILinkRoleCodeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/service/interf/ILinkRoleResourceService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/role/service/interf/IRoleService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/entity/IUserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/entity/IUserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/entity/IUserSessionEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/entity/IUserSessionEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/entity/UserEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/entity/UserEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/entity/UserSessionEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/entity/UserSessionEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/model/UserModel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/service/UserSessionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/service/interf/IUserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-core/target/classes/com/zwj/system/authorication/user/service/interf/IUserSessionService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/AuthSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/AuthSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/user/web/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/user/web/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-web/system-authorization-web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/system-authorization-web.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-web/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-web/target/classes/com/zwj/system/authorication/AuthSystemApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/target/classes/com/zwj/system/authorication/AuthSystemApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/framework-system/system-authorization-web/target/classes/com/zwj/system/authorication/user/web/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/framework-system/system-authorization-web/target/classes/com/zwj/system/authorication/user/web/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zwj-oauth2/zwj-oauth2-core/zwj-oauth2-core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zwj-oauth2/zwj-oauth2-core/zwj-oauth2-core.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zwj-oauth2/zwj-oauth2.iml" beforeDir="false" afterPath="$PROJECT_DIR$/zwj-oauth2/zwj-oauth2.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/auth-center/target/" />
+    <ignored path="$PROJECT_DIR$/auth-center/auth-basic-api/target/" />
+    <ignored path="$PROJECT_DIR$/framework-authentication/target/" />
+    <ignored path="$PROJECT_DIR$/framework-authentication/auth-basic-api/target/" />
+    <ignored path="$PROJECT_DIR$/framework-common/target/" />
+    <ignored path="$PROJECT_DIR$/framework-authentication/auth-basic/target/" />
+    <ignored path="$PROJECT_DIR$/framework-authentication/auth-jwt/target/" />
+    <ignored path="$PROJECT_DIR$/framework-core/target/" />
+    <ignored path="$PROJECT_DIR$/zwj-oauth2/target/" />
+    <ignored path="$PROJECT_DIR$/zwj-oauth2/zwj-oauth2-core/target/" />
+    <ignored path="$PROJECT_DIR$/framework-system/target/" />
+    <ignored path="$PROJECT_DIR$/framework-system/system-authorization/target/" />
+    <ignored path="$PROJECT_DIR$/framework-system/system-authorization-api/target/" />
+    <ignored path="$PROJECT_DIR$/framework-system/system-authorization-core/target/" />
+    <ignored path="$PROJECT_DIR$/framework-system/system-authorization-web/target/" />
+    <ignored path="$PROJECT_DIR$/framework-common/common-web/target/" />
+    <ignored path="$PROJECT_DIR$/framework-common/common-utils/target/" />
+    <ignored path="$PROJECT_DIR$/framework-logging/target/" />
+    <ignored path="$PROJECT_DIR$/framework-logging/logging-api/target/" />
+    <ignored path="$PROJECT_DIR$/framework-logging/logging-aop/target/" />
+    <ignored path="$PROJECT_DIR$/framework-logging/framework-utils/target/" />
+    <ignored path="$PROJECT_DIR$/framework-utils/target/" />
+    <ignored path="$PROJECT_DIR$/framework-common/common-data/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="auth@47.107.255.14" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="auth@47.107.255.14" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="auth@47.107.255.14" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="auth: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="zwj-framework" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Gender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-common/common-data/src/main/java/com.zwj.framework.common/data/Gender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+              <folding>
+                <element signature="e#297#298#0" expanded="true" />
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#373#374#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserEntity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/UserEntity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserModel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/model/UserModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UserServiceHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/helper/UserServiceHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AuthSystemApplication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/AuthSystemApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-utils/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-web/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework-system/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>authentication</find>
+      <find>getLogger</find>
+      <find>ID</find>
+      <find>p_update</find>
+      <find>common-utils</find>
+      <find>snow flake generator init error: the machine id can't greater than 31 or less than 0</find>
+      <find>import com\.zwj\.framework\.common\.entity\.RecordCreatorEntity\;</find>
+      <find>import com.zwj.framework.common.entity.RecordModifierEntity;</find>
+      <find>RecordCreatorEntity,</find>
+      <find>RecordModifierEntity</find>
+      <find>RecordModifierEntity,</find>
+      <find>((RecordModifierEntity)</find>
+      <find>GenericRecordStringIdEntity</find>
+      <find>GenericStringEntity</find>
+      <find>Name</find>
+      <find>codec_id</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>PK</replace>
+      <replace />
+      <replace>GenericStringEntity</replace>
+      <replace>GenericStringIdEntity</replace>
+      <replace>username</replace>
+      <replace>Username</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/framework-common/src/main/java/com/zwj/framework</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Downloads/spring-framework-5.0.8.RELEASE" value="PREVIEW" />
+        <entry key="$USER_HOME$/java/spring-framework" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/core/interf/IAuthCoreBiz.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/core/AuthCoreBiz.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/CodeService.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/CodecService.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/impl/CodecServiceImpl.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/model/ResourceModel.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/code/web/CodeCController.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/model/ComboBoxModel.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/entity/CodeEntity.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/entity/ICodeEntity.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/entity/CodecEntity.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/model/CodeModel.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/model/CodecModel.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/model/PageResponseModel.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/UpdateService.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/helper/CodecServiceHelper.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/impl/CodeServiceImpl.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/service/helper/ResourcePoolServiceHelper.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/service/helper/ResourceServiceHelper.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/code/service/helper/CodeServiceHelper.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/resource/service/impl/ResourceServiceImpl.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/user/web/UserController.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/service/impl/SystemServiceImpl.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/service/SystemService.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/system/web/SystemController.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/PageRequerst.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/Pageable.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/PageParam.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/helper/ServiceHelper.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/RequestPageDTO.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/QueryController.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/QueryService.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/PageParameter.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/TreeSupportEntity.java" />
+        <option value="$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/AopAuthorizingController.java" />
+        <option value="$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/AopMethodAuthorizeDefinitionParser.java" />
+        <option value="$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/DefaultAopMethodAuthorizeDefinitionParser.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/AbstractTreeStringIdEntity.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/service/helper/SystemServiceHelper.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/model/SystemModel.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/UserEntity.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/IUserEntity.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/helper/UserServiceHelper.java" />
+        <option value="$PROJECT_DIR$/framework-common/common-data/src/main/java/com.zwj.framework.common/data/Gender.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/model/UserModel.java" />
+        <option value="$PROJECT_DIR$/framework-system/system-authorization-core/pom.xml" />
+        <option value="$PROJECT_DIR$/framework-system/pom.xml" />
+        <option value="$PROJECT_DIR$/framework-utils/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="69" />
+    <option name="y" value="-6" />
+    <option name="width" value="731" />
+    <option name="height" value="606" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <flattenPackages ProjectPane="false" />
+      <hideEmptyPackages ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="zwj-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="framework-utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="zwj-framework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/mobie" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/framework-system/system-authorization-core/pom.xml" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.zwj.system.authorication.tenant.repository" />
+      <recent name="com.zwj.framework.auth.aop" />
+      <recent name="com.zwj.framework.auth.exception" />
+      <recent name="com.zwj.framework.auth" />
+      <recent name="com.zwj.framework.auth.annotation" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/framework-utils/src/main/java/com/zwj/framework/utils" />
+      <recent name="$PROJECT_DIR$/framework-common/common-utils/src/main/java" />
+      <recent name="$PROJECT_DIR$/framework-common/common-web/src/main/java" />
+      <recent name="$PROJECT_DIR$/framework-authentication/auth-basic-api/src/main/java/com/zwj/framework/auth" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="AuthSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="system-authorization-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zwj.system.authorication.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zwj.system.authorication.AuthSystemApplication" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.AuthSystemApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="25bf49a9-31ad-4e8b-adf5-4be482280fa0" name="Default" comment="" />
+      <created>1557885859394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1557885859394</updated>
+      <workItem from="1557885862999" duration="8286000" />
+      <workItem from="1558761627909" duration="32525000" />
+      <workItem from="1558928075890" duration="9074000" />
+      <workItem from="1559035571858" duration="980000" />
+      <workItem from="1559112869056" duration="5357000" />
+      <workItem from="1559305871523" duration="5316000" />
+      <workItem from="1559396874297" duration="1808000" />
+      <workItem from="1559552046003" duration="6684000" />
+      <workItem from="1559569458224" duration="16577000" />
+      <workItem from="1559630520309" duration="15747000" />
+      <workItem from="1559704814957" duration="21349000" />
+      <workItem from="1559824549831" duration="11757000" />
+      <workItem from="1559907433248" duration="5196000" />
+      <workItem from="1560062473500" duration="2069000" />
+      <workItem from="1560132871122" duration="3333000" />
+      <workItem from="1560238136978" duration="1742000" />
+      <workItem from="1560258515008" duration="15009000" />
+      <workItem from="1560330386263" duration="8478000" />
+      <workItem from="1560391581191" duration="6916000" />
+      <workItem from="1560431183739" duration="3155000" />
+      <workItem from="1560492956930" duration="6459000" />
+      <workItem from="1560516967076" duration="1509000" />
+      <workItem from="1560566164113" duration="6236000" />
+      <workItem from="1560588736099" duration="5574000" />
+      <workItem from="1560608820607" duration="1756000" />
+      <workItem from="1560741459686" duration="1793000" />
+      <workItem from="1560754604942" duration="664000" />
+      <workItem from="1560755313910" duration="2092000" />
+      <workItem from="1560759648610" duration="4633000" />
+      <workItem from="1560773665621" duration="6987000" />
+      <workItem from="1560824545828" duration="4137000" />
+      <workItem from="1560840540846" duration="8531000" />
+      <workItem from="1560927406046" duration="1607000" />
+      <workItem from="1560948100925" duration="153000" />
+      <workItem from="1560949950929" duration="1198000" />
+      <workItem from="1561012140331" duration="7432000" />
+      <workItem from="1561038388734" duration="7345000" />
+      <workItem from="1561086879252" duration="12056000" />
+      <workItem from="1561270630675" duration="3063000" />
+      <workItem from="1561363960482" duration="8411000" />
+      <workItem from="1561426756236" duration="3605000" />
+      <workItem from="1561445726381" duration="8129000" />
+      <workItem from="1561513564226" duration="2886000" />
+      <workItem from="1561536734057" duration="5089000" />
+      <workItem from="1561609645644" duration="16122000" />
+      <workItem from="1561781822327" duration="4909000" />
+      <workItem from="1562136115626" duration="12018000" />
+      <workItem from="1562160121182" duration="2059000" />
+      <workItem from="1562228488067" duration="3836000" />
+      <workItem from="1562293367520" duration="2702000" />
+      <workItem from="1562596992373" duration="653000" />
+      <workItem from="1562664245025" duration="1816000" />
+      <workItem from="1562767019914" duration="2467000" />
+      <workItem from="1562812858285" duration="7020000" />
+      <workItem from="1562844813408" duration="4444000" />
+      <workItem from="1562915230614" duration="10657000" />
+      <workItem from="1562986688002" duration="1112000" />
+      <workItem from="1563082539315" duration="5855000" />
+      <workItem from="1563156300749" duration="2295000" />
+      <workItem from="1563170229247" duration="1660000" />
+      <workItem from="1563239852747" duration="26243000" />
+      <workItem from="1563286065106" duration="2010000" />
+      <workItem from="1563332529551" duration="13501000" />
+      <workItem from="1563370740822" duration="951000" />
+      <workItem from="1563410756488" duration="8593000" />
+      <workItem from="1563498670504" duration="1683000" />
+      <workItem from="1563612212831" duration="2518000" />
+      <workItem from="1563698567813" duration="5221000" />
+      <workItem from="1563757785036" duration="4765000" />
+      <workItem from="1563879859705" duration="1304000" />
+      <workItem from="1563883873998" duration="1669000" />
+      <workItem from="1563932859490" duration="7435000" />
+      <workItem from="1564034140680" duration="6537000" />
+      <workItem from="1564641465644" duration="7572000" />
+      <workItem from="1564708892393" duration="14482000" />
+      <workItem from="1564910969759" duration="4100000" />
+      <workItem from="1564996881605" duration="5066000" />
+      <workItem from="1565090559023" duration="5886000" />
+      <workItem from="1565142387165" duration="25563000" />
+      <workItem from="1565246266322" duration="7058000" />
+      <workItem from="1565313118616" duration="13641000" />
+      <workItem from="1565339990341" duration="1993000" />
+      <workItem from="1565502790663" duration="5251000" />
+      <workItem from="1565851479716" duration="9463000" />
+      <workItem from="1566731204930" duration="1088000" />
+    </task>
+    <task id="LOCAL-00001" summary="'2019 06 18 , 加入springboot依赖, 运行authsystem.'">
+      <created>1560826399257</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560826399257</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="555921000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="69" y="-6" width="1851" height="1086" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="1" weight="0.33240998" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="8" weight="0.44875348" />
+      <window_info anchor="right" id="Flutter Outline" order="3" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="2" weight="0.32963988" />
+      <window_info id="Structure" order="1" sideWeight="0.5024155" side_tool="true" weight="0.3839335" />
+      <window_info anchor="right" id="JSF" order="4" weight="0.32963988" />
+      <window_info anchor="right" id="Ant Build" order="12" weight="0.2498615" />
+      <window_info id="UI Designer" order="5" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.031512607" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.077731095" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" weight="0.22373949" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Flutter Performance" order="11" side_tool="true" weight="0.32983193" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3067227" />
+      <window_info anchor="bottom" id="Spring" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32983193" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49758455" visible="true" weight="0.3767313" />
+      <window_info anchor="right" id="Bean Validation" order="6" weight="0.32963988" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info id="Favorites" order="4" sideWeight="0.5013158" side_tool="true" weight="0.2498615" />
+      <window_info anchor="right" id="Flutter Inspector" order="13" weight="0.32963988" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="11" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32983193" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="10" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="'2019 06 18 , 加入springboot依赖, 运行authsystem.'" />
+    <option name="LAST_COMMIT_MESSAGE" value="'2019 06 18 , 加入springboot依赖, 运行authsystem.'" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/organization/service/interf/IOrganizationClassificationService.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="40" />
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/service/SystemService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/service/impl/SystemServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/code/web/CodeCController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/code/web/CodeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/PageParam.java" />
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/awt/print/Pageable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="37" column="17" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/UpdateService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-315">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/repository/query/QueryByExampleExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.1.Final/validation-api-2.0.1.Final.jar!/javax/validation/constraints/NotNull.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="23" column="18" selection-start-line="23" selection-start-column="18" selection-end-line="23" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/domain/Sort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2499">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/domain/Pageable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/ResponseMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="32" column="32" lean-forward="true" selection-start-line="32" selection-start-column="32" selection-end-line="32" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/domain/AbstractPageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.3.RELEASE/spring-data-commons-2.1.3.RELEASE.jar!/org/springframework/data/domain/PageRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="46" lean-forward="true" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/CreateController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="17" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/RequestPageDTO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/QueryController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="53" selection-end-line="55" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/controller/message/PageParameter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="41" column="47" selection-start-line="41" selection-start-column="47" selection-end-line="41" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/QueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-utils/src/main/java/com/zwj/framework/utils/ThreadLocalUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/system/web/SystemController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/TreeSupportEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="65" selection-start-line="10" selection-start-column="65" selection-end-line="10" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-logging/logging-aop/src/main/java/com/zwj/framework/logging/aop/AccessLoggerParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0-sources.jar!/javax/faces/event/WebsocketEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="723">
+          <caret line="159" column="22" selection-start-line="159" selection-start-column="22" selection-end-line="159" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0-sources.jar!/javax/transaction/Synchronization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0-sources.jar!/javax/enterprise/inject/Model.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="46" column="18" selection-start-line="46" selection-start-column="18" selection-end-line="46" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/AopAuthorizingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="29" lean-forward="true" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/DefaultAopMethodAuthorizeDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/AbstractTreeSortStringIdEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/entity/simple/AbstractTreeStringIdEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-web/src/main/java/com/zwj/framework/common/service/helper/ServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="248">
+          <caret line="64" selection-start-line="64" selection-end-line="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-authentication/auth-basic/src/main/java/com/zwj/framework/auth/aop/AopMethodAuthorizeDefinitionParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/service/helper/SystemServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="29" column="50" selection-start-line="29" selection-start-column="50" selection-end-line="29" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/model/SystemModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="61" selection-start-line="33" selection-start-column="61" selection-end-line="33" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/system/entity/SystemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="26" column="20" selection-start-line="26" selection-start-column="20" selection-end-line="26" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-data/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/model/AccountModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/IUserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="23" column="29" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-common/common-data/src/main/java/com.zwj.framework.common/data/Gender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#373#374#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-web/src/main/java/com/zwj/system/authorication/AuthSystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-utils/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="38" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/service/helper/UserServiceHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/javax/javaee-api/8.0/javaee-api-8.0-sources.jar!/javax/persistence/Enumerated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="56" column="18" selection-start-line="56" selection-start-column="18" selection-end-line="56" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/entity/UserEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework-system/system-authorization-core/src/main/java/com/zwj/system/authorication/user/model/UserModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" column="28" lean-forward="true" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring (system-authorization-web)|Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>common-data</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

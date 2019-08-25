@@ -10,6 +10,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
@@ -21,7 +22,7 @@ import static com.zwj.framework.common.controller.message.ResponseMessage.succes
  * @Time: 11:24 AM
  * @description:
  */
-@Controller
+@RestController
 public interface DeleteController<PK, T extends GenericEntity<PK>,M extends Model> extends GenericController<PK, T, M>{
 
     DeleteService<PK, T, M> getService();

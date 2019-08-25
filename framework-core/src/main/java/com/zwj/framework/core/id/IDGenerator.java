@@ -1,6 +1,7 @@
 package com.zwj.framework.core.id;
 
-import com.zwj.framework.common.utils.RandomUtils;
+
+import com.zwj.framework.utils.RandomUtils;
 
 import java.math.BigInteger;
 import java.security.MessageDigest;

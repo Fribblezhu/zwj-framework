@@ -5,6 +5,7 @@ import com.zwj.framework.common.entity.GenericEntity;
 import com.zwj.framework.common.model.Model;
 import com.zwj.framework.common.service.GenericService;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author: zwj
@@ -12,7 +13,7 @@ import org.springframework.stereotype.Controller;
  * @Time: 2:19 PM
  * @description:
  */
-@Controller
+@RestController
 public interface GenericController<PK, T extends GenericEntity<PK>, M extends Model> {
 
     @Authorize(ignore =  true)

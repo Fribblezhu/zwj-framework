@@ -1,15 +1,14 @@
 package com.zwj.system.authorication.user.entity;
 
-import com.zwj.framework.common.entity.simple.GenericRecordStringIdEntity;
+import com.zwj.framework.common.data.Gender;
+import com.zwj.framework.common.entity.simple.GenericSortStringIdEntity;
+import com.zwj.framework.common.entity.simple.GenericStringIdEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.springframework.format.annotation.DateTimeFormat;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
-import javax.persistence.Transient;
+import javax.persistence.*;
 import java.util.Date;
 
 /**
@@ -23,14 +22,12 @@ import java.util.Date;
 @NoArgsConstructor
 @Entity
 @Table(name = "t_user")
-public class UserEntity extends GenericRecordStringIdEntity implements IUserEntity{
+public class UserEntity extends GenericSortStringIdEntity implements IUserEntity{
     private static final long serialVersionUID = 1L;
 
-    @Column(name = "show_order")
-    private Long showOrder;
-
     /** 名字 **/
-    private String name;
+    @Column(name = "username")
+    private String username;
 
     /** 登录名 **/
     @Column(name = "login_name")
@@ -43,10 +40,14 @@ public class UserEntity extends GenericRecordStringIdEntity implements IUserEnti
     private String address;
 
     /** 性别 **/
-    private Integer gender;
+    @Enumerated(EnumType.STRING)
+    private Gender gender;
 
     /** 邮箱 **/
     private String email;
+
+    /**  电话  **/
+    private String phone;
 
     /** 简称 **/
     private String abbreviation;

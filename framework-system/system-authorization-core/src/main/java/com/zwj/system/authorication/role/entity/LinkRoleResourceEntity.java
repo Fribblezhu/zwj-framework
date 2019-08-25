@@ -1,6 +1,6 @@
 package com.zwj.system.authorication.role.entity;
 
-import com.zwj.framework.common.entity.simple.GenericRecordStringIdEntity;
+import com.zwj.framework.common.entity.simple.GenericStringIdEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -21,7 +21,7 @@ import java.sql.Timestamp;
 @NoArgsConstructor
 @Entity
 @Table(name = "t_link_role_resource")
-public class LinkRoleResourceEntity extends GenericRecordStringIdEntity implements ILinkRoleResourceEntity {
+public class LinkRoleResourceEntity extends GenericStringIdEntity implements ILinkRoleResourceEntity {
 
     @Column(name = "role_id")
     private String roleId;

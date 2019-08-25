@@ -1,7 +1,7 @@
 package com.zwj.framework.auth.define;
 
 import com.zwj.framework.auth.Authentication;
-import com.zwj.framework.common.aop.MethodInterceptorContext;
+import com.zwj.framework.utils.aop.MethodInterceptorContext;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/framework-authentication/auth-basic/auth-basic.iml" filepath="$PROJECT_DIR$/framework-authentication/auth-basic/auth-basic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-authentication/auth-basic-api/auth-basic-api.iml" filepath="$PROJECT_DIR$/framework-authentication/auth-basic-api/auth-basic-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-authentication/auth-jwt/auth-jwt.iml" filepath="$PROJECT_DIR$/framework-authentication/auth-jwt/auth-jwt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-common/common-data/common-data.iml" filepath="$PROJECT_DIR$/framework-common/common-data/common-data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-common/common-web/common-web.iml" filepath="$PROJECT_DIR$/framework-common/common-web/common-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-authentication/framework-authentication.iml" filepath="$PROJECT_DIR$/framework-authentication/framework-authentication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-common/framework-common.iml" filepath="$PROJECT_DIR$/framework-common/framework-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-core/framework-core.iml" filepath="$PROJECT_DIR$/framework-core/framework-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-logging/framework-logging.iml" filepath="$PROJECT_DIR$/framework-logging/framework-logging.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-system/framework-system.iml" filepath="$PROJECT_DIR$/framework-system/framework-system.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-utils/framework-utils.iml" filepath="$PROJECT_DIR$/framework-utils/framework-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-logging/logging-aop/logging-aop.iml" filepath="$PROJECT_DIR$/framework-logging/logging-aop/logging-aop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-logging/logging-api/logging-api.iml" filepath="$PROJECT_DIR$/framework-logging/logging-api/logging-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-system/system-authorization-api/system-authorization-api.iml" filepath="$PROJECT_DIR$/framework-system/system-authorization-api/system-authorization-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-system/system-authorization-core/system-authorization-core.iml" filepath="$PROJECT_DIR$/framework-system/system-authorization-core/system-authorization-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework-system/system-authorization-web/system-authorization-web.iml" filepath="$PROJECT_DIR$/framework-system/system-authorization-web/system-authorization-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zwj-oauth2/zwj-oauth2.iml" filepath="$PROJECT_DIR$/zwj-oauth2/zwj-oauth2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zwj-oauth2/zwj-oauth2-core/zwj-oauth2-core.iml" filepath="$PROJECT_DIR$/zwj-oauth2/zwj-oauth2-core/zwj-oauth2-core.iml" />
+    </modules>
+  </component>
+</project>

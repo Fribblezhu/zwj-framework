@@ -1,8 +1,8 @@
 package com.zwj.system.authorication.role.entity;
 
 import com.zwj.framework.common.entity.GenericEntity;
-import com.zwj.framework.common.entity.RecordCreatorEntity;
-import com.zwj.framework.common.entity.RecordModifierEntity;
+
+
 
 /**
  * @author: zwj
@@ -10,7 +10,7 @@ import com.zwj.framework.common.entity.RecordModifierEntity;
  * @Time: 10:58 AM
  * @description:
  */
-public interface ILinkRoleClassification extends RecordCreatorEntity, RecordModifierEntity, GenericEntity<String> {
+public interface ILinkRoleClassification extends GenericEntity<String> {
 
     String getRoleId();
 

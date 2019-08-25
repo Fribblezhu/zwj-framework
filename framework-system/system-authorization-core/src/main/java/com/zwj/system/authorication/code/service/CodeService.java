@@ -1,11 +1,11 @@
 package com.zwj.system.authorication.code.service;
 
+import com.zwj.framework.common.service.CURDService;
 import com.zwj.system.authorication.code.entity.CodeEntity;
-import com.zwj.system.authorication.code.repository.CodeRepository;
-import com.zwj.system.authorication.code.service.interf.ICodeService;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.jpa.repository.JpaRepository;
+import com.zwj.system.authorication.code.model.CodeModel;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 /**
  * @author: zwj
@@ -13,14 +13,7 @@ import org.springframework.stereotype.Service;
  * @Time: 4:05 PM
  * @description:
  */
-@Service
-public class CodeService implements ICodeService {
+public interface CodeService extends CURDService<String, CodeEntity, CodeModel> {
 
-    @Autowired
-    private CodeRepository codeRepository;
-
-    @Override
-    public JpaRepository<CodeEntity, String> getRepository() {
-        return codeRepository;
-    }
+    CodeModel classify(String id, List<String> codecIds);
 }

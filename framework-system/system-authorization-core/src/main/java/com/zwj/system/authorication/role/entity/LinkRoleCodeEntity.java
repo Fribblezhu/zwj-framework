@@ -1,6 +1,6 @@
 package com.zwj.system.authorication.role.entity;
 
-import com.zwj.framework.common.entity.simple.GenericRecordStringIdEntity;
+import com.zwj.framework.common.entity.simple.GenericStringIdEntity;
 import com.zwj.system.authorication.code.entity.CodeEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -19,7 +19,7 @@ import javax.persistence.*;
 @NoArgsConstructor
 @Entity
 @Table(name = "t_link_role_code")
-public class LinkRoleCodeEntity extends GenericRecordStringIdEntity implements ILinkRoleCodeEntity {
+public class LinkRoleCodeEntity extends GenericStringIdEntity implements ILinkRoleCodeEntity {
 
     @ManyToOne(cascade = CascadeType.ALL, fetch = FetchType.LAZY)
     @JoinColumn(name = "code_id")

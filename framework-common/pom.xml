@@ -22,7 +22,7 @@
     </build>
     <modules>
         <module>common-web</module>
-        <module>common-utils</module>
+        <module>common-data</module>
     </modules>
     <dependencies>
 

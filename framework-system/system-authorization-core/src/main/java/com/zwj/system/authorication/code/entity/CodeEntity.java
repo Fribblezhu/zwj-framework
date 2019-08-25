@@ -1,13 +1,12 @@
 package com.zwj.system.authorication.code.entity;
 
-import com.zwj.framework.common.entity.simple.GenericRecordStringIdEntity;
+import com.zwj.framework.common.entity.simple.GenericSortStringIdEntity;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
+import java.util.Set;
 
 /**
  * @author: zwj
@@ -20,22 +19,20 @@ import javax.persistence.Table;
 @Getter
 @Setter
 @NoArgsConstructor
-public class CodeEntity extends GenericRecordStringIdEntity implements ICodeEntity {
+public class CodeEntity extends GenericSortStringIdEntity implements ICodeEntity {
 
     @Column(name = "parent_id")
     private String parentId;
 
     private String name;
 
-    @Column(name = "code_key")
-    private String codeKey;
+    @Column(name = "code")
+    private String code;
 
     private Integer status;
 
-    private String comments;
-
-    @Column(name = "show_order")
-    private Integer showOrder;
+    @Column(name = "description", length = 1023)
+    private String description;
 
     @Column(name = "is_virtual")
     private Integer isVirtual;
@@ -49,7 +46,13 @@ public class CodeEntity extends GenericRecordStringIdEntity implements ICodeEnti
     @Column(name = "tenant_id")
     private String tenantId;
 
-    @Column(name = "sys_default")
-    private String sysDefault;
+    @Column(name = "isSystem")
+    private Integer isSystem;
+
+    @ManyToMany(cascade = CascadeType.REMOVE, fetch = FetchType.LAZY)
+    @JoinTable(name ="t_code_codec",
+        joinColumns = @JoinColumn(name = "code_id", referencedColumnName = "id"),
+        inverseJoinColumns = @JoinColumn(name = "codec_id", referencedColumnName = "id"))
+    private Set<CodecEntity> codecList;
 
 }

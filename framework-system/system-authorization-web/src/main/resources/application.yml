@@ -1,9 +1,11 @@
+server:
+  port: 9001
 spring:
   application:
     name: auth-system
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://47.107.255.14:3306/auth?useUnicode=true&characterEncoding=utf8mb4&allowMultiQueries=true
+    url: jdbc:mysql://47.107.255.14:3306/auth?useUnicode=true&characterEncoding=utf8&allowMultiQueries=true&useSSL=false
     username: zhuwenjian
     password: fribblezwj)$21
     dbcp2:
@@ -18,4 +20,11 @@ spring:
     database: 1
   jpa:
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
+    show-sql: true
+auth:
+  salt: auth-system
+  super:
+    login-name: SuperAdmin
+    password: SuperAdmin
+    email: 1106556175@qq.com

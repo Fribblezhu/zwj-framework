@@ -1,6 +1,6 @@
 package com.zwj.system.authorication.user.entity;
 
-import com.zwj.framework.common.entity.simple.GenericRecordStringIdEntity;
+import com.zwj.framework.common.entity.simple.GenericStringIdEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -23,7 +23,7 @@ import java.sql.Date;
 @Table(name = "t_user_session")
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserSessionEntity extends GenericRecordStringIdEntity implements IUserSessionEntity{
+public class UserSessionEntity extends GenericStringIdEntity implements IUserSessionEntity{
 
     @Column(name = "user_id")
     //用户ID

@@ -1,8 +1,9 @@
 package com.zwj.system.authorication.code.entity;
 
 import com.zwj.framework.common.entity.GenericEntity;
-import com.zwj.framework.common.entity.RecordCreatorEntity;
-import com.zwj.framework.common.entity.RecordModifierEntity;
+
+import java.util.Set;
+
 
 /**
  * @author: zwj
@@ -10,11 +11,11 @@ import com.zwj.framework.common.entity.RecordModifierEntity;
  * @Time: 3:17 PM
  * @description:
  */
-public interface ICodeEntity extends RecordModifierEntity, RecordCreatorEntity, GenericEntity<String> {
+public interface ICodeEntity extends   GenericEntity<String> {
 
-    String getSysDefault();
+    Integer getIsSystem();
 
-    void setSysDefault(String sysDefault);
+    void setIsSystem(Integer isSystem);
 
     String getParentId();
 
@@ -24,21 +25,17 @@ public interface ICodeEntity extends RecordModifierEntity, RecordCreatorEntity, 
 
     void setName(String name);
 
-    String getCodeKey();
+    String getCode();
 
-    void setCodeKey(String codeKey);
+    void setCode(String code);
 
     Integer getStatus();
 
     void setStatus(Integer status);
 
-    String getComments();
+    String getDescription();
 
-    void setComments(String comments);
-
-    Integer getShowOrder();
-
-    void setShowOrder(Integer showOrder);
+    void setDescription(String comments);
 
     Integer getIsVirtual();
 
@@ -55,5 +52,9 @@ public interface ICodeEntity extends RecordModifierEntity, RecordCreatorEntity, 
     String getTenantId();
 
     void setTenantId(String tenantId);
+
+    void setCodecList(Set<CodecEntity> codecList);
+
+    Set<CodecEntity> getCodecList();
 
 }

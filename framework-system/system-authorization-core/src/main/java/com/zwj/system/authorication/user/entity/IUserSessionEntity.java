@@ -2,8 +2,8 @@ package com.zwj.system.authorication.user.entity;
 
 
 import com.zwj.framework.common.entity.GenericEntity;
-import com.zwj.framework.common.entity.RecordCreatorEntity;
-import com.zwj.framework.common.entity.RecordModifierEntity;
+
+
 
 import java.sql.Date;
 
@@ -13,7 +13,7 @@ import java.sql.Date;
  * @Time: 2:10 PM
  * @description:
  */
-public interface IUserSessionEntity extends RecordModifierEntity, RecordCreatorEntity, GenericEntity<String> {
+public interface IUserSessionEntity extends   GenericEntity<String> {
 
     String getUserId();
 

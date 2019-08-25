@@ -1,6 +1,6 @@
 package com.zwj.framework.common.entity;
 
-import java.util.List;
+import java.util.Set;
 
 /**
  * @author: zwj
@@ -8,21 +8,18 @@ import java.util.List;
  * @Time: 11:06 AM
  * @description:
  */
-public interface TreeSupportEntity<PK> extends GenericEntity<PK> {
-
-    PK getParentId();
-
-    void setParentId(PK parentId);
+public interface TreeSupportEntity<T extends TreeSupportEntity> {
 
     String getPath();
 
     void setPath(String path);
 
-    int getLevel();
+    Integer getLevel();
 
-    void setLevel(int level);
+    void setLevel(Integer level);
 
-    <T extends TreeSupportEntity<PK>> List<T> getChildren();
+    Set<T> getChildren();
 
+    void setChildren(Set<T> children);
 
 }

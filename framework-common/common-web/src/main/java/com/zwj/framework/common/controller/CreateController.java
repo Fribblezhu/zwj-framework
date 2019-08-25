@@ -10,6 +10,7 @@ import io.swagger.annotations.ApiOperation;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
 
 import static com.zwj.framework.common.controller.message.ResponseMessage.success;
 
@@ -19,7 +20,7 @@ import static com.zwj.framework.common.controller.message.ResponseMessage.succes
  * @Time: 1:53 PM
  * @description:
  */
-@Controller
+@RestController
 public interface CreateController<PK, T extends GenericEntity<PK>, M extends  Model> extends GenericController<PK, T, M> {
 
     /**
@@ -32,7 +33,7 @@ public interface CreateController<PK, T extends GenericEntity<PK>, M extends  Mo
     @PostMapping("/create")
     @ApiOperation("新增")
     default ResponseMessage create(@RequestBody M data) {
-        return success(this.getService().create(data));
+        return success(this.getService().create(data, null));
     }
 
 

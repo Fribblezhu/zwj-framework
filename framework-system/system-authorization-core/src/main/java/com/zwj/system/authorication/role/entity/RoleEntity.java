@@ -1,6 +1,6 @@
 package com.zwj.system.authorication.role.entity;
 
-import com.zwj.framework.common.entity.simple.GenericRecordStringIdEntity;
+import com.zwj.framework.common.entity.simple.GenericStringIdEntity;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -22,7 +22,7 @@ import javax.persistence.Transient;
 @AllArgsConstructor
 @Entity
 @Table(name = "t_role")
-public class RoleEntity extends GenericRecordStringIdEntity implements IRoleEntity {
+public class RoleEntity extends GenericStringIdEntity implements IRoleEntity {
 
     private String name;
 

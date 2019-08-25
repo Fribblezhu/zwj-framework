@@ -1,6 +1,7 @@
 package com.zwj.framework.auth;
 
-import com.zwj.framework.common.utils.ThreadLocalUtils;
+
+import com.zwj.framework.utils.ThreadLocalUtils;
 
 import java.util.ArrayList;
 import java.util.List;

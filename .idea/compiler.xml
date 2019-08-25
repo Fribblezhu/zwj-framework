@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="auth-basic" />
+        <module name="auth-basic-api" />
+        <module name="auth-jwt" />
+        <module name="common-data" />
+        <module name="common-web" />
+        <module name="framework-core" />
+        <module name="framework-utils" />
+        <module name="logging-aop" />
+        <module name="logging-api" />
+        <module name="system-authorization" />
+        <module name="system-authorization-api" />
+        <module name="system-authorization-core" />
+        <module name="system-authorization-web" />
+        <module name="zwj-oauth2-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="auth-basic" target="8" />
+      <module name="auth-basic-api" target="8" />
+      <module name="auth-jwt" target="1.5" />
+      <module name="common-data" target="8" />
+      <module name="common-web" target="8" />
+      <module name="framework-authentication" target="1.5" />
+      <module name="framework-common" target="8" />
+      <module name="framework-core" target="8" />
+      <module name="framework-logging" target="1.5" />
+      <module name="framework-system" target="1.8" />
+      <module name="framework-utils" target="8" />
+      <module name="logging-aop" target="1.5" />
+      <module name="logging-api" target="8" />
+      <module name="system-authorization-api" target="1.8" />
+      <module name="system-authorization-core" target="8" />
+      <module name="system-authorization-web" target="1.8" />
+      <module name="zwj-oauth2" target="1.5" />
+      <module name="zwj-oauth2-core" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

@@ -9,11 +9,9 @@ import com.zwj.framework.common.exception.EntityNotFoundException;
 import com.zwj.framework.common.model.Model;
 import com.zwj.framework.common.service.QueryService;
 import io.swagger.annotations.ApiOperation;
+import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -25,7 +23,7 @@ import static com.zwj.framework.common.controller.message.ResponseMessage.succes
  * @Time: 2:27 PM
  * @description:
  */
-@Controller
+@RestController
 public interface QueryController<PK, T extends GenericEntity<PK>, M extends Model> extends GenericController<PK, T, M>{
 
     QueryService<PK, T, M> getService();
@@ -33,7 +31,7 @@ public interface QueryController<PK, T extends GenericEntity<PK>, M extends Mode
     @Authorize(permission = Permission.ACTION_GET)
     @ApiOperation(value = "根据主键查询单个实体")
     @GetMapping(value = "/{id:.+}")
-    default ResponseMessage getByPrimaryKey(@PathVariable PK PK) {
+    default ResponseMessage getByPrimaryKey(@PathVariable(name = "id") PK PK) {
         return success(this.assertNotNull(this.getService().getByPrimaryKey(PK)));
     }
 
@@ -46,15 +44,17 @@ public interface QueryController<PK, T extends GenericEntity<PK>, M extends Mode
 
     @Authorize(permission = Permission.ACTION_QUERY)
     @PostMapping(value = "/query-list")
-    default ResponseMessage queryList(@RequestBody T entity) {
-        return success(this.assertNotNull(this.getService().queryByEntity(entity)));
+    @ApiOperation(value = "根据实体类查找")
+    default ResponseMessage queryList(@RequestBody M model) {
+        return success(this.assertNotNull(this.getService().queryByModel(model)));
     }
 
     @Authorize(permission = Permission.ACTION_QUERY)
     @PostMapping(value = "query-page")
     @ApiOperation(value = "根据实体类分页查找")
-    default ResponseMessage queryPage(@RequestBody RequestPageDTO<T> requestPageDTO) {
-        return success(this.assertNotNull(this.getService().queryPageByEntity(requestPageDTO)));
+    default ResponseMessage queryPage(@RequestBody() RequestPageDTO<M> requestPageDTO) {
+        return success(this.getService().queryPageByModel(requestPageDTO.getPageParameter(),
+                        requestPageDTO.getModel()));
     }
 
     @Authorize(ignore = true)

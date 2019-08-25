@@ -17,21 +17,8 @@ import javax.persistence.MappedSuperclass;
 @Getter
 @Setter
 @MappedSuperclass
-public  abstract class AbstractTreeSortStringIdEntity extends GenericStringIdEntity implements SortSupportEntity, TreeSupportEntity<String> {
-
-
-    private String  parentId;
+public  abstract class AbstractTreeSortStringIdEntity<T extends TreeSupportEntity>
+        extends AbstractTreeStringIdEntity<T> implements SortSupportEntity {
 
     private Long sortIndex;
-
-    private String path;
-
-    private int level;
-
-
-    /**
-     * TODO
-     * why does i can't define  [List<AbstractTreeSortStringIdEntity children] here ?
-     */
-
 }
